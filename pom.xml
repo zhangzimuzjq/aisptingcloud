@@ -23,6 +23,8 @@
         <module>configclient</module>
         <module>zipkin</module>
         <module>zipkinclient</module>
+        <module>javaEightNew</module>
+        <module>study-java8</module>
     </modules>
 
     <parent>

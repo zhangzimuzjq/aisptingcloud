@@ -14,6 +14,7 @@
         <module name="zuul" />
         <module name="testtemplate" />
         <module name="hystrix" />
+        <module name="studyjava8" />
         <module name="configclient" />
         <module name="eurekaclient" />
         <module name="zipkinclient" />
@@ -23,6 +24,9 @@
         <module name="configserver" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="javaEightNew" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -33,10 +37,12 @@
       <module name="eurekaserver" options="-parameters" />
       <module name="feign" options="-parameters" />
       <module name="hystrix" options="-parameters" />
+      <module name="javaEightNew" options="-parameters" />
       <module name="nativeconfigclient" options="-parameters" />
       <module name="nativeconfigserver" options="-parameters" />
       <module name="ribbon" options="-parameters" />
       <module name="spring cloud" options="-parameters" />
+      <module name="studyjava8" options="-parameters" />
       <module name="testtemplate" options="-parameters" />
       <module name="zipkin" options="-parameters" />
       <module name="zipkinclient" options="-parameters" />
